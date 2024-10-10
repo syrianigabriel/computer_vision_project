@@ -46,7 +46,7 @@ class myCorruptionModel(nn.Module):
 
 model = myCorruptionModel().to("cpu")
 
-model.load_state_dict(torch.load('model.pth', map_location=torch.device('cpu')))
+model.load_state_dict(torch.load('model_0.pth', map_location=torch.device('cpu')))
 
 model.eval()
 
