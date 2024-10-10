@@ -7,7 +7,7 @@ This Flask application allows users to upload images and checks for corruption u
 ## Features
 
 - Upload an image for corruption detection.
-- Real-time feedback on whether the image is corrupted or not.
+- Receive feedback on whether the image is corrupted or not.
 - Built with Flask and PyTorch for easy integration of machine learning models.
 
 ## Built with
